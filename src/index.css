@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; 
+    /* justify-content: center;
+    align-items: center;
+    height: 500vh; */
+    /* margin: 500; */
+  }
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 1520px;
+    margin: 50px;
+    transition: transform 0.2s;
+   
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
