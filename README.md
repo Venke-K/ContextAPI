@@ -1,8 +1,13 @@
-# React + Vite
+This project is based on the ContextAPI 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CartContext.js: Manages the cart state using ContextAPI and a reducer.
 
-Currently, two official plugins are available:
+Card.js: Represents a single product in the cart with functionality to increase or decrease its quantity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+CartPage.js: Displays all the products in the cart and calculates the total quantity and amount.
+
+App.js: Wraps the CartPage with CartProvider to provide cart state.
+
+styles.css: Basic styling for the cart and product cards.
+
+index.js: Entry point of the application rendering the App component.
